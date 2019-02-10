@@ -27,14 +27,12 @@ mod=$((a % b))
           echo Modulus of a and b are $mod
 
       
-((++a))
-          echo Increment
-          operator when applied on "a" results into a = $a
+inc=$((++a))
+          echo inc operator when applied on "a" results into a = $a
 
       
-((--b))
-          echo Decrement
-          operator when applied on "b" results into b = $b
+dec=$((--b))
+          echo dec operator when applied on "b" results into b = $b
 
 ((--c))
 echo What was the default value \ of c if its value is now $c\?
