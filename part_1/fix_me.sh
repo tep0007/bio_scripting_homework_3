@@ -19,7 +19,7 @@ mul=$((a * b))
 
 
            
-div=$((a / d))
+div=$((a / b))
         echo division of a and b are $div
 
             
